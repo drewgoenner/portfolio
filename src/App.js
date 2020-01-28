@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Route } from 'react-router-dom';
+import { Landing } from './landing/Landing'
 
 const useStyles = makeStyles(theme => ({
     root: {
