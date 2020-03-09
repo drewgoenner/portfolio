@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
     wrapper: {
         display: 'flex',
         justifyContent: 'space-between',
-        width: '80%',
+        width: '99%',
         margin: '10px'
     },
 
@@ -33,6 +33,17 @@ const useStyles = makeStyles(theme => ({
         alignItems: 'center',
         justifyContent: 'flex-start',
 
+    },
+
+    right: {
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'flex-end',
+        justifyContent: 'space-between',
+    },
+
+    tabs: {
+        margin: '0 10px'
     }
 
     
@@ -52,7 +63,12 @@ export default function Nav() {
                 </Link>
                 Andrew Goenner
             </div>
-            {/* <Link href = '#' color = 'inherit' className = {classes.link} */}
+            <div className = {classes.right}>
+                <p className = {classes.tabs}>About Me</p>
+                <p className = {classes.tabs}>Skills</p>
+                <p className = {classes.tabs}>Projects</p>
+                <p className = {classes.tabs}>Contact Me</p>
+            </div>
         </Typography>
     )
 
