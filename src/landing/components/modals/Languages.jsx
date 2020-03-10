@@ -1,7 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
-import { ReactModal, MaterialModal } from './LibFrame'
+import { ReactModal, MaterialModal } from './LibFrame';
+import { OopModal } from './DataSoft'
 
 
 function rand() {
@@ -140,6 +141,7 @@ export function JavaScriptModal() {
             I am extremely proficient in JavaScript, especially when it comes to React.  We used this for the vast majority of our time in Lambda for both front end and back end.  Nearly every project I've worked on after we moved on from HTML involves JavaScript (and React)
           </p>
           <ReactModal />
+          <OopModal />
         </div>
       </Modal>
     </div>
@@ -176,6 +178,7 @@ export function PythonModal() {
           <p id="simple-modal-description">
             While I would not say I am fully proficient in Python, learning it enhanced my problem solving skills, and what I don't know I can research and learn.  
           </p>
+          <OopModal />
         </div>
       </Modal>
     </div>

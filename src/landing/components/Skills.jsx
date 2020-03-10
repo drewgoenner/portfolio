@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Link, Typography, ButtonBase, Button } from '@material-ui/core';
 import { HtmlModal, CSSModal, JavaScriptModal, PythonModal } from './modals/Languages'
 import { ReactModal, ReduxModal, NodeModal, ExpressModal, SassModal, MaterialModal } from './modals/LibFrame'
+import { SQLiteModal, PostGresModal, OopModal, PairModal } from './modals/DataSoft'
 
 const useStyles = makeStyles(theme => ({
     wrapper: {
@@ -61,7 +62,18 @@ export default function Skills() {
                     <ExpressModal />
                     <SassModal />
                     <MaterialModal />
+                </div>
 
+                <div className = {classes.datasoft}>
+                    <h2 className = {classes.h2}>Databases</h2>
+                    <SQLiteModal />
+                    <PostGresModal />
+                </div>
+
+                <div className = {classes.datasoft}>
+                    <h2 className = {classes.h2}>Software Development</h2>
+                    <OopModal />
+                    <PairModal />
                 </div>
             </div>
         </Typography>
