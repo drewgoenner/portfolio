@@ -46,7 +46,7 @@ export default function Skills() {
             <div className = {classes.skills}>
                 
                 <div className = {classes.languages}>
-                    <h2 className = {classes.h2} color = green>Languages</h2>
+                    <h2 className = {classes.h2}>Languages</h2>
                     <HtmlModal />
                     <CSSModal />
                     <JavaScriptModal  />

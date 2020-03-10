@@ -100,7 +100,7 @@ export function ReduxModal() {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <h2 id="simple-modal-title">Text in a modal</h2>
+          <h2 id="simple-modal-title">Redux</h2>
           <p id="simple-modal-description">
             I didn't get into Redux until close to the end of my time learning React. However, I did use it on several projects, including build week projects and our Labs project to handle state.  I enjoy Redux and between the two, I probably prefer it over Context.
           </p>
@@ -137,7 +137,7 @@ export function NodeModal() {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <h2 id="simple-modal-title">Text in a modal</h2>
+          <h2 id="simple-modal-title">Node.JS</h2>
           <p id="simple-modal-description">
             I am proficient with Node, as it is a natural extension of Javascript for handling the backend.  It is intuitive and I enjoyed using it on several projects.  Combined with Knex and Express, it is extremely intuitive and coder-friendly.
           </p>
@@ -175,7 +175,7 @@ export function ExpressModal() {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <h2 id="simple-modal-title">Text in a modal</h2>
+          <h2 id="simple-modal-title">Express</h2>
           <p id="simple-modal-description">
             I use Express in conjunction with Node.JS.  I am fairly proficient in it, and what I can't do offhand, I can very easily learn by doing.
           </p>
@@ -212,7 +212,7 @@ export function KnexModal() {
           onClose={handleClose}
         >
           <div style={modalStyle} className={classes.paper}>
-            <h2 id="simple-modal-title">Text in a modal</h2>
+            <h2 id="simple-modal-title">Knex</h2>
             <p id="simple-modal-description">
               Knex, used to tie everything together. This is an extremely useful query builder that I am proficient in. Very quick, simple, and easy to use.
             </p>
@@ -249,7 +249,7 @@ export function SassModal() {
           onClose={handleClose}
         >
           <div style={modalStyle} className={classes.paper}>
-            <h2 id="simple-modal-title">Text in a modal</h2>
+            <h2 id="simple-modal-title">LESS/SASS</h2>
             <p id="simple-modal-description">
               I use LESS/SASS when building HTML pages or using CSS.  I generally prefer to build React pages and use libraries such as Material UI, but that particular library allows me to keep up on my CSS anyway, and I haven't let my skills wither.
             </p>
@@ -285,7 +285,7 @@ export function SassModal() {
           onClose={handleClose}
         >
           <div style={modalStyle} className={classes.paper}>
-            <h2 id="simple-modal-title">Text in a modal</h2>
+            <h2 id="simple-modal-title">Material UI</h2>
             <p id="simple-modal-description">
               I started using Material UI on a labs project for Lambda to style our project.  The docs are a slog to go through and while they are extremely counterintuitive, once you get the feel for the styling library, it is extremely intuitive.  MakeStyles allows you to use CSS instructions to style pages, and the built-in options such as modals and nav bars come in extremely handy.  Steep learning curve, but worth picking up.
             </p>

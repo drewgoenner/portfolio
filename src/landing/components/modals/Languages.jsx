@@ -98,7 +98,7 @@ export function CSSModal() {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <h2 id="simple-modal-title">Text in a modal</h2>
+          <h2 id="simple-modal-title">CSS3</h2>
           <p id="simple-modal-description">
             We learned CSS in conjunction with HTML, the two were tied together at every turn.  From flexbox to block, setting backgrounds to building nav bars, I can do it all.  With React webpages, I use Material-UI quite a bit, which keeps me on my toes, CSS-wise.
           </p>
@@ -135,7 +135,7 @@ export function JavaScriptModal() {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <h2 id="simple-modal-title">Text in a modal</h2>
+          <h2 id="simple-modal-title">JavaScript</h2>
           <p id="simple-modal-description">
             I am extremely proficient in JavaScript, especially when it comes to React.  We used this for the vast majority of our time in Lambda for both front end and back end.  Nearly every project I've worked on after we moved on from HTML involves JavaScript (and React)
           </p>
@@ -172,7 +172,7 @@ export function PythonModal() {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <h2 id="simple-modal-title">Text in a modal</h2>
+          <h2 id="simple-modal-title">Python</h2>
           <p id="simple-modal-description">
             While I would not say I am fully proficient in Python, learning it enhanced my problem solving skills, and what I don't know I can research and learn.  
           </p>
