@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About'
+import Skills from './components/Skills'
 
 export const Landing = () => {
 
@@ -8,6 +9,7 @@ export const Landing = () => {
         <>
         <Nav />
         <About />
+        <Skills />
         </>
     )
 }
