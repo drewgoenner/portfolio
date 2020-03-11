@@ -65,10 +65,11 @@ export default function Nav() {
                 Andrew Goenner
             </div>
             <div className = {classes.right}>
-                <p className = {classes.tabs}>Back Story</p>
+                {/* <p className = {classes.tabs}>Back Story</p>
                 <p className = {classes.tabs}>Class Skills</p>
                 <p className = {classes.tabs}>Past Adventures</p>
-                <p className = {classes.tabs}>Contact Me</p>
+                <p className = {classes.tabs}>Contact Me</p> */}
+                <h2 className = {classes.tabs}>Computers & Coders</h2>
             </div>
         </Typography>
     )

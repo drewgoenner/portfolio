@@ -12,7 +12,12 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'space-between',
         flexDirection: 'column',
-        alignItems: 'center'
+        // alignItems: 'center'
+    },
+
+    h1: {
+        display: 'flex',
+        justifyContent: 'center'
     },
 
     skills: {
@@ -72,7 +77,7 @@ const useStyles = makeStyles(theme => ({
     commcon: {
         display: 'flex',
         flexDirection: 'column',
-        // margin: '0 2%',
+        margin: '0 1% 0 0',
         alignItems: 'center',
         border: '1px solid purple',
         width: '16%'
@@ -116,7 +121,7 @@ export default function Skills() {
 
     return (
         <Typography className = {classes.wrapper}>
-            <h1> Class Skills (click for more information)</h1>
+            <h1 className = {classes.h1}> Class Skills (click a skill for more info)</h1>
             <div className = {classes.skills}>
                 
                 <div className = {classes.languages}>
