@@ -50,7 +50,8 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'center',
-        margin: '0 0 5% 0'
+        margin: '0 0 5% 0',
+        width: '100%'
     },
 
     languages: {

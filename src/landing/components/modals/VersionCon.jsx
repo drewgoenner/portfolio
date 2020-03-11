@@ -23,6 +23,17 @@ function getModalStyle() {
 
 const useStyles = makeStyles(theme => ({
   paper: {
+    padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            width: 300
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
     position: 'absolute',
     width: 400,
     backgroundColor: 'orange',

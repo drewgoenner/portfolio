@@ -78,7 +78,8 @@ const useStyles = makeStyles(theme => ({
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            width: '100%'
+            width: '100%',
+            textAlign: 'center'
             
         },
         [theme.breakpoints.up('md')]: {
