@@ -19,6 +19,7 @@ function getModalStyle() {
     top: `${top}%`,
     left: `${left}%`,
     transform: `translate(-${top}%, -${left}%)`,
+    outline: 'none'
   };
 }
 
@@ -43,13 +44,13 @@ const useStyles = makeStyles(theme => ({
 
   dataButton: {
       backgroundColor: 'pink',
-      margin: '10% 0',
+      margin: '5% 0',
       width: '100px'
   },
 
   softButton: {
     backgroundColor: 'gray',
-    margin: '10% 0',
+    margin: '5% 0',
     width: '100px'
 },
 }));

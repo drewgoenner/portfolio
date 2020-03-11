@@ -15,6 +15,7 @@ function getModalStyle() {
     top: `${top}%`,
     left: `${left}%`,
     transform: `translate(-${top}%, -${left}%)`,
+    outline: 'none'
   };
 }
 
@@ -30,7 +31,7 @@ const useStyles = makeStyles(theme => ({
 
   button: {
       backgroundColor: 'purple',
-      margin: '10% 0',
+      margin: '5% 0',
       width: '100px'
   }
 }));
