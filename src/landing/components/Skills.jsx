@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Link, Typography, ButtonBase, Button } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import { HtmlModal, CSSModal, JavaScriptModal, PythonModal } from './modals/Languages'
 import { ReactModal, ReduxModal, NodeModal, ExpressModal, SassModal, MaterialModal } from './modals/LibFrame'
 import { SQLiteModal, PostGresModal, OopModal, PairModal } from './modals/DataSoft'

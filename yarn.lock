@@ -974,6 +974,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@brainhubeu/react-carousel@^1.12.20":
+  version "1.12.20"
+  resolved "https://registry.yarnpkg.com/@brainhubeu/react-carousel/-/react-carousel-1.12.20.tgz#cd811e65d0524e908a3463cdbf46c65a9416ad97"
+  integrity sha512-LURXV+O3T8Q2pN2Z9rLYr+mLE0Yp0BrJQgnqmCuZ2+vAP0Cn/FU+3WM9IKTgtf711GjAqlvVvOxswhdGIsHcYg==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -8593,7 +8598,7 @@ react-router@5.1.2:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-scripts@3.4.0:
+react-scripts@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.4.0.tgz#f413680f0b5b937c8879ba1ffdae9b8c5b364bf5"
   integrity sha512-pBqaAroFoHnFAkuX+uSK9Th1uEh2GYdGY2IG1I9/7HmuEf+ls3lLCk1p2GFYRSrLMz6ieQR/SyN6TLIGK3hKRg==

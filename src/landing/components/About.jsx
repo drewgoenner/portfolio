@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Link, Typography, ButtonBase } from '@material-ui/core';
+import {  Typography } from '@material-ui/core';
 import profpic from '../images/TH.jpg'
 
 const useStyles = makeStyles(theme => ({
@@ -63,7 +63,7 @@ export default function About() {
 
     return (
         <Typography className = {classes.wrapper}>
-            <img className = {classes.profpic} src = {profpic} />
+            <img className = {classes.profpic} src = {profpic} alt ='' />
             <div className = {classes.about}>
                 <div className = {classes.baseinfo}>
                 <h1 className = {classes.h1}>Name: Andrew Goenner</h1>
