@@ -1,9 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
-import { NodeModal, } from './LibFrame'
+import { NodeModal, } from './LibFrame';
 import { JavaScriptModal, PythonModal} from './Languages';
-import {VSCodeModal } from './VersionCon'
+import {VSCodeModal } from './VersionCon';
+import {ZoomModal } from './Comm';
 
 
 function rand() {
@@ -25,7 +26,7 @@ const useStyles = makeStyles(theme => ({
   dataPaper: {
     position: 'absolute',
     width: 400,
-    backgroundColor: 'lightred',
+    backgroundColor: 'pink',
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
@@ -41,13 +42,15 @@ const useStyles = makeStyles(theme => ({
   },
 
   dataButton: {
-      backgroundColor: 'lightred',
-      margin: '5%'
+      backgroundColor: 'pink',
+      margin: '10% 0',
+      width: '100px'
   },
 
   softButton: {
     backgroundColor: 'gray',
-    margin: '5%'
+    margin: '10% 0',
+    width: '100px'
 },
 }));
 
@@ -195,6 +198,7 @@ export function PairModal() {
             Aside from the ability to code itself, this skill is quite probably one of the most important ones I learned from Lambda.  I am able to pair program with someone effectively, efficiently, and enjoyably.  I can give advice when I am not the one actively coding, or take advice when I'm the one scrambling to write up functions.  I am also able to use VSCode Live Share, allowing my partner on myself to work on multiple components at once.   
           </p>
           <VSCodeModal />
+          <ZoomModal />
         </div>
       </Modal>
     </div>

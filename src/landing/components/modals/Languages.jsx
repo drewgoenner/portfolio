@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import { ReactModal, MaterialModal } from './LibFrame';
 import { OopModal } from './DataSoft'
+import { SublimeModal, VSCodeModal, ShellModal } from './VersionCon'
 
 
 function rand() {
@@ -32,7 +33,8 @@ const useStyles = makeStyles(theme => ({
 
   button: {
       backgroundColor: 'green',
-      margin: '5%'
+      margin: '10% 0',
+      width: '100px'
   }
 }));
 
@@ -67,6 +69,7 @@ export function HtmlModal() {
             I'd spent some time learning HTML as an amateur back in the late 90s/early 80s, but it wasn't until I joined Lambda School that I really did a deep dive into it.  I quickly grew proficient with HTML and, though I prefer to built React webpages, I keep my HTML skills fresh.
           </p>
           <CSSModal />
+          <VSCodeModal />
         </div>
       </Modal>
     </div>
@@ -142,6 +145,7 @@ export function JavaScriptModal() {
           </p>
           <ReactModal />
           <OopModal />
+          <VSCodeModal />
         </div>
       </Modal>
     </div>
@@ -179,6 +183,8 @@ export function PythonModal() {
             While I would not say I am fully proficient in Python, learning it enhanced my problem solving skills, and what I don't know I can research and learn.  
           </p>
           <OopModal />
+          <SublimeModal />
+          <ShellModal />
         </div>
       </Modal>
     </div>
