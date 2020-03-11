@@ -168,7 +168,7 @@ export default function About() {
                 <h3 className = {classes.h3}>Character Class: Full Stack Developer</h3>
                 <h3 className = {classes.h3}>Level: 1</h3>
                 <h3 className = {classes.h3}>Home Territories: <a href='https://github.com/drewgoenner'target = '_blank'><img src = {github} className = {classes.git} /></a>
-                <a href = 'https://www.linkedin.com/in/andrew-goenner-7947a059/' target = '_blank'><img src = {linked} className = {classes.linked} /></a>
+                <a href = 'https://www.linkedin.com/in/andrewgoenner' target = '_blank'><img src = {linked} className = {classes.linked} /></a>
                 </h3>
                 <h3 className = {classes.h3}>Send me a missive: <a href= 'mailto:drewgoenner@gmail.com'>via email</a></h3>
                 
