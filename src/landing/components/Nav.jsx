@@ -9,7 +9,8 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'space-between',
         width: '99%',
-        margin: '10px'
+        margin: '10px',
+        borderBottom: '2px solid green'
     },
 
     link: {

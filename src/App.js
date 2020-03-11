@@ -1,13 +1,14 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Route } from 'react-router-dom';
-import { Landing } from './landing/Landing'
+import { Landing } from './landing/Landing';
+import CssBaseline from '@material-ui/core/CssBaseline'
 
 const useStyles = makeStyles(theme => ({
     root: {
         display: 'flex',
         flexDirection: 'column',
-        backgroundColor: '#26242D',
+        background: '#26242D',
         color: '#ffffff',
     }
 }));
@@ -15,8 +16,11 @@ const useStyles = makeStyles(theme => ({
 export const App = () => {
     const classes = useStyles();
     return (
-        <div id='App' className={classes.root}>
-            <Route exact path='/' component={Landing} />
-        </div>
+        <React.Fragment>
+            <CssBaseline />
+                <div id='App' className={classes.root}>
+                    <Route exact path='/' component={Landing} />
+                </div>
+        </React.Fragment>
     );
 };

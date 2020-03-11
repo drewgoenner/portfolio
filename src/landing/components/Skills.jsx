@@ -96,7 +96,7 @@ export default function Skills() {
 
     return (
         <Typography className = {classes.wrapper}>
-            <h1> My Skills (click for more information)</h1>
+            <h1> Class Skills (click for more information)</h1>
             <div className = {classes.skills}>
                 
                 <div className = {classes.languages}>
