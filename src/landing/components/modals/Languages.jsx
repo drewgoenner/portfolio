@@ -69,7 +69,7 @@ export function HtmlModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         HTML5
       </button>
@@ -107,7 +107,7 @@ export function CSSModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         CSS3
       </button>
@@ -144,7 +144,7 @@ export function JavaScriptModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         JavaScript
       </button>
@@ -183,7 +183,7 @@ export function PythonModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Python
       </button>

@@ -68,7 +68,7 @@ export function VSCodeModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         VSCode
       </button>
@@ -107,7 +107,7 @@ export function SublimeModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Sublime
       </button>
@@ -143,7 +143,7 @@ export function GitModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Git
       </button>
@@ -180,7 +180,7 @@ export function GitBashModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         GitBash
       </button>
@@ -218,7 +218,7 @@ export function GitHubModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         GitHub
       </button>
@@ -257,7 +257,7 @@ export function ShellModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         PowerShell
       </button>
@@ -296,7 +296,7 @@ export function NetlifyModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Netlify
       </button>
@@ -333,7 +333,7 @@ export function WindowsModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Windows
       </button>

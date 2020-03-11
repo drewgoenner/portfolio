@@ -67,7 +67,7 @@ export function ReactModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         React
       </button>
@@ -106,7 +106,7 @@ export function ReduxModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Redux
       </button>
@@ -143,7 +143,7 @@ export function NodeModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Node.JS
       </button>
@@ -181,7 +181,7 @@ export function ExpressModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Express
       </button>
@@ -218,7 +218,7 @@ export function KnexModal() {
     };
   
     return (
-      <div>
+      <div className = {classes.buttondiv}>
         <button type="button" className = {classes.button} onClick={handleOpen}>
           Knex
         </button>
@@ -255,7 +255,7 @@ export function SassModal() {
     };
   
     return (
-      <div>
+      <div className = {classes.buttondiv}>
         <button type="button" className = {classes.button} onClick={handleOpen}>
           LESS/SASS
         </button>
@@ -291,7 +291,7 @@ export function SassModal() {
     };
   
     return (
-      <div>
+      <div className = {classes.buttondiv}>
         <button type="button" className = {classes.button} onClick={handleOpen}>
           Material UI
         </button>
