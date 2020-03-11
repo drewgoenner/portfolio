@@ -10,6 +10,19 @@ import { ThunderModal, CelebModal, KanshaModal } from './modals/ProjectPop'
 
 const useStyles = makeStyles(theme => ({
     wrapper: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         flexDirection: 'column',
        

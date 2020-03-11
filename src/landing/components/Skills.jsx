@@ -12,15 +12,41 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         justifyContent: 'space-between',
         flexDirection: 'column',
-        // alignItems: 'center'
+        alignItems: 'center'
     },
 
     h1: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            justifyContent: 'center',
+            textAlign: 'center'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         justifyContent: 'center'
     },
 
     skills: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'center',
@@ -28,6 +54,21 @@ const useStyles = makeStyles(theme => ({
     },
 
     languages: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            margin: '3% 3%',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         flexDirection: 'column',
         margin: '0 1%',
@@ -38,6 +79,21 @@ const useStyles = makeStyles(theme => ({
     },
 
     libframe: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            margin: '3% 3%',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         flexDirection: 'column',
         // margin: '0 2%',
@@ -47,6 +103,21 @@ const useStyles = makeStyles(theme => ({
     },
 
     data: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            margin: '3% 3%',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         flexDirection: 'column',
         margin: '0 1%',
@@ -56,6 +127,21 @@ const useStyles = makeStyles(theme => ({
     },
 
     soft: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            margin: '3% 3%',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         flexDirection: 'column',
         // margin: '0 2%',
@@ -65,6 +151,21 @@ const useStyles = makeStyles(theme => ({
     },
 
     versioncon: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            margin: '3% 3%',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         flexDirection: 'column',
         margin: '0 1%',
@@ -75,6 +176,21 @@ const useStyles = makeStyles(theme => ({
     },
 
     commcon: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            margin: '3% 3%',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         flexDirection: 'column',
         margin: '0 1% 0 0',

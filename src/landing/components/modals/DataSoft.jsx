@@ -42,16 +42,20 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(2, 4, 3),
   },
 
+  buttondiv: {
+    width: '70%'
+  },
+
   dataButton: {
       backgroundColor: 'pink',
       margin: '5% 0',
-      width: '100px'
+      width: '100%'
   },
 
   softButton: {
     backgroundColor: 'gray',
     margin: '5% 0',
-    width: '100px'
+    width: '100%'
 },
 }));
 
@@ -70,7 +74,7 @@ export function SQLiteModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.dataButton} onClick={handleOpen}>
         SQLite
       </button>
@@ -108,7 +112,7 @@ export function PostGresModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.dataButton} onClick={handleOpen}>
         PostGreSQL
       </button>
@@ -145,7 +149,7 @@ export function OopModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.softButton} onClick={handleOpen}>
         OOP
       </button>
@@ -183,7 +187,7 @@ export function PairModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.softButton} onClick={handleOpen}>
         Pair Programming
       </button>

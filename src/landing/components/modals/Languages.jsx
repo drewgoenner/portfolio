@@ -32,10 +32,14 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(2, 4, 3),
   },
 
+  buttondiv: {
+    width: '70%'
+  },
+
   button: {
       backgroundColor: 'green',
       margin: '5% 0',
-      width: '100px',
+      width: '100%',
   }
 }));
 

@@ -8,10 +8,39 @@ import linked from '../images/linked.png'
 const useStyles = makeStyles(theme => ({
     
     wrapper: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex'
     },
 
     about: {
+
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            width: '80%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         width: '100%',
         flexDirection: 'row',
@@ -26,6 +55,17 @@ const useStyles = makeStyles(theme => ({
 
  
     aboutContent: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         width: '50%',
         padding: '5px',
         margin: '2%',
@@ -33,18 +73,62 @@ const useStyles = makeStyles(theme => ({
     },
 
     h1: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
+        display: 'flex',
         margin: '0 2%',
-        width: '370px',
+        width: '80%',
         borderBottom: '1px solid green'
     },
 
     h2: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         margin: '0 2%',
         width: '370px',
         borderBottom: '1px solid green'
     },
 
     h3: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            width: '100%',
+            textAlign: 'center'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         margin: '0 2%',
         width: '370px',
         borderBottom: '1px solid green'

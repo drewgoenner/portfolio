@@ -29,10 +29,14 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(2, 4, 3),
   },
 
+  buttondiv: {
+    width: '70%'
+  },
+
   button: {
       backgroundColor: 'purple',
       margin: '5% 0',
-      width: '100px'
+      width: '100%'
   }
 }));
 
@@ -51,7 +55,7 @@ export function SlackModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Slack
       </button>
@@ -88,7 +92,7 @@ export function ZoomModal() {
   };
 
   return (
-    <div>
+    <div className = {classes.buttondiv}>
       <button type="button" className = {classes.button} onClick={handleOpen}>
         Zoom
       </button>

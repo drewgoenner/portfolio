@@ -6,6 +6,22 @@ import andrewicon from '../images/andrewicon.png'
 const useStyles = makeStyles(theme => ({
 
     wrapper: {
+
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            margin: '0',
+            width: '100%'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
         display: 'flex',
         justifyContent: 'space-between',
         width: '99%',
