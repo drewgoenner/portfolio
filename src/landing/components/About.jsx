@@ -59,6 +59,7 @@ export default function About() {
                 <div className = {classes.baseinfo}>
                 <h1 className = {classes.h1}>Name: Andrew Goenner</h1>
                 <h2 className = {classes.h2}>Race: Tall Hobbit</h2>
+                <h3 className = {classes.h3}>Alignment: Lawful Good</h3> 
                 <h3 className = {classes.h3}>Character Class: Full Stack Developer</h3>
                 <h3 className = {classes.h3}>Level: 1</h3>
                 </div>
