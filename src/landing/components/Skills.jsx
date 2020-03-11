@@ -18,44 +18,64 @@ const useStyles = makeStyles(theme => ({
     skills: {
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        margin: '0 0 5% 0'
     },
 
     languages: {
         display: 'flex',
         flexDirection: 'column',
-        margin: '0 2%',
-        alignItems: 'center'
+        margin: '0 1%',
+        alignItems: 'center',
+        border: '1px solid green',
+        width: '16%'
         
     },
 
     libframe: {
         display: 'flex',
         flexDirection: 'column',
-        margin: '0 2%',
-        alignItems: 'center'
+        // margin: '0 2%',
+        alignItems: 'center',
+        border: '1px solid lightblue',
+        width: '16%'
     },
 
-    datasoft: {
+    data: {
         display: 'flex',
         flexDirection: 'column',
-        margin: '0 2%',
-        alignItems: 'center'
+        margin: '0 1%',
+        alignItems: 'center',
+        border: '1px solid pink',
+        width: '16%'
+    },
+
+    soft: {
+        display: 'flex',
+        flexDirection: 'column',
+        // margin: '0 2%',
+        alignItems: 'center',
+        border: '1px solid gray',
+        width: '16%'
     },
 
     versioncon: {
         display: 'flex',
         flexDirection: 'column',
-        margin: '0 2%',
-        alignItems: 'center'
+        margin: '0 1%',
+        alignItems: 'center',
+        border: '1px solid yellow',
+        width: '16%'
 
     },
 
     commcon: {
         display: 'flex',
         flexDirection: 'column',
-        margin: '0 2%',
-        alignItems: 'center'
+        // margin: '0 2%',
+        alignItems: 'center',
+        border: '1px solid purple',
+        width: '16%'
     },
 
     langH2: {
@@ -100,7 +120,7 @@ export default function Skills() {
             <div className = {classes.skills}>
                 
                 <div className = {classes.languages}>
-                    <h2 className = {classes.langH2}>Languages</h2>
+                    <h3 className = {classes.langH2}>Languages</h3>
                     <HtmlModal />
                     <CSSModal />
                     <JavaScriptModal  />
@@ -108,7 +128,7 @@ export default function Skills() {
                 </div>
 
                 <div className = {classes.libframe}>
-                    <h2 className = {classes.libH2}>Libraries/Frameworks</h2>
+                    <h3 className = {classes.libH2}>Libraries/Frameworks</h3>
                     <ReactModal />
                     <ReduxModal />
                     <NodeModal />
@@ -117,20 +137,20 @@ export default function Skills() {
                     <MaterialModal />
                 </div>
 
-                <div className = {classes.datasoft}>
-                    <h2 className = {classes.dataH2}>Databases</h2>
+                <div className = {classes.data}>
+                    <h3 className = {classes.dataH2}>Databases</h3>
                     <SQLiteModal />
                     <PostGresModal />
                 </div>
 
-                <div className = {classes.datasoft}>
-                    <h2 className = {classes.softH2}>Development</h2>
+                <div className = {classes.soft}>
+                    <h3 className = {classes.softH2}>Development</h3>
                     <OopModal />
                     <PairModal />
                 </div>
 
                 <div className = {classes.versioncon}>
-                    <h2 className = {classes.controlH2}>Control</h2>
+                    <h3 className = {classes.controlH2}>Control</h3>
                     <VSCodeModal />
                     <SublimeModal />
                     <GitModal />
@@ -142,7 +162,7 @@ export default function Skills() {
                 </div>
 
                 <div className = {classes.commcon}>
-                    <h2 className = {classes.commH2}>Communication</h2>
+                    <h3 className = {classes.commH2}>Communication</h3>
                     <SlackModal />
                     <ZoomModal />
                 </div>

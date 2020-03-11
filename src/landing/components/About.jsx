@@ -24,26 +24,35 @@ const useStyles = makeStyles(theme => ({
 
  
     aboutContent: {
-        width: '50%'
+        width: '50%',
+        padding: '5px',
+        margin: '2%',
+        border: '1px solid green'
     },
 
     h1: {
         margin: '0 2%',
-        width: '400px'
+        width: '370px',
+        borderBottom: '1px solid green'
     },
 
     h2: {
-        margin: '0 2%'
+        margin: '0 2%',
+        width: '370px',
+        borderBottom: '1px solid green'
     },
 
     h3: {
-        margin: '0 2%'
+        margin: '0 2%',
+        width: '370px',
+        borderBottom: '1px solid green'
     },
 
     profpic: {
         width: "30%",
         borderRadius: '50%',
-        margin: '2%'
+        margin: '2%',
+        border: '1px solid green'
     }
 
 
