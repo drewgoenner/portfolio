@@ -222,7 +222,7 @@ export function PairModal() {
         <div style={modalStyle} className={classes.softPaper}>
           <h2 id="simple-modal-title">Pair Programming</h2>
           <p id="simple-modal-description">
-            Aside from the ability to code itself, this skill is quite probably one of the most important ones I learned from Lambda.  I am able to pair program with someone effectively, efficiently, and enjoyably.  I can give advice when I am not the one actively coding, or take advice when I'm the one scrambling to write up functions.  I am also able to use VSCode Live Share, allowing my partner on myself to work on multiple components at once.   
+            Aside from the ability to code itself, this skill is quite probably one of the most important ones I learned from Lambda.  I am able to pair program with someone effectively, efficiently, and enjoyably.  I can give advice when I am not the one actively coding, or take advice when I'm the one scrambling to write up functions.  I am also able to use VSCode Live Share, allowing my partner or myself to work on multiple components at once.   
           </p>
           <VSCodeModal />
           <ZoomModal />
