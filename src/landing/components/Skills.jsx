@@ -30,7 +30,27 @@ const useStyles = makeStyles(theme => ({
             
         },
         display: 'flex',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        margin: '0'
+    },
+
+    h2: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            justifyContent: 'center',
+            textAlign: 'center'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
+        display: 'flex',
+        justifyContent: 'center',
+        margin: '0'
     },
 
     skills: {
@@ -237,8 +257,9 @@ export default function Skills() {
     const classes = useStyles();
 
     return (
-        <Typography className = {classes.wrapper}>
-            <h1 className = {classes.h1}> Class Skills (click a skill for more info)</h1>
+        <Typography className = {classes.wrapper} a id = 'skills'>
+            <h1 className = {classes.h1}> Class Skills</h1>
+            <h2 className = {classes.h2}>(click a skill for more info)</h2>
             <div className = {classes.skills}>
                 
                 <div className = {classes.languages}>

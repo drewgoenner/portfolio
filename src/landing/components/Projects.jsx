@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import { Button } from '@material-ui/core'
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import thunder from '../images/thunderballrun.png';
@@ -43,26 +44,55 @@ const useStyles = makeStyles(theme => ({
     image: {
         width: '100%',
         border: '1px solid green'
+    },
+
+    button: {
+        background: 'lightgreen',
+        borderRadius: '0',
+        margin: '0 0 0 4%',
+        height: '100%',
+        textDecoration: 'none'
+    },
+
+    buttonDiv: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center'
     }
 }))
 
 export default function MyCarousel() {
     const classes = useStyles()
     return (
-        <div className = {classes.wrapper}>
-            <h1 className = {classes.h1}>Past Adventures</h1>
+        <div className = {classes.wrapper} a id = 'projects'>
+            <h1 className = {classes.h1}>Past Adventures (Projects)</h1>
             <Carousel arrows>
                 <div className = {classes.projcont}>
                 <img src={thunder} className = {classes.image} alt='ThunderBall Run' />
+                <div className = {classes.buttonDiv}>
                 <ThunderModal />
+                <a href = 'https://thunderball-run.gettingonthe.net/' target = '_blank'><button className = {classes.button}>Deployed Site</button></a>
+                <a href = 'https://github.com/awesome-mud/CS-Build-Week-1/tree/master' target = '_blank'><button className = {classes.button}>Backend Repo</button></a>
+                <a href = 'https://github.com/awesome-mud/Front-end/tree/master/thunderball' target = '_blank'><button className = {classes.button}>Frontend Repo</button></a>
+
+                </div>
                 </div>
                 <div className = {classes.projcont}>
                 <img src={doa} className = {classes.image} alt="Celebrity Dead or Alive"/>
+                <div className = {classes.buttonDiv}>
                 <CelebModal />
+                <a href = 'https://celeb-doa.netlify.com/' target = '_blank'><button className = {classes.button}>Deployed Site</button></a>
+                <a href = 'https://github.com/Buildweek-Dead-Celebrities/Backend' target = '_blank'><button className = {classes.button}>Backend Repo</button></a>
+                </div>
                 </div>
                 <div className = {classes.projcont}>
                 <img src={kansha} className = {classes.image} alt = 'Kansha Rewards'/>
+                <div className = {classes.buttonDiv}>
                 <KanshaModal />
+                <a href = 'https://kansharewards.com/' target = '_blank'><button className = {classes.button}>Deployed Site</button></a>
+                <a href = 'https://github.com/Lambda-School-Labs/kansha-be' target = '_blank'><button className = {classes.button}>Backend Repo</button></a>
+                <a href = 'https://github.com/drewgoenner/kansha-fe/tree/1.1' target = '_blank'><button className = {classes.button}>Frontend Repo</button></a>
+                </div>
                 </div>
             </Carousel>
         </div>
@@ -71,44 +101,3 @@ export default function MyCarousel() {
 }
 
 
-// class MyCarousel extends React.Component {
-    
-//     constructor() {
- 
-//       super()
-//       this.state = {
-//         value: 0,
-//         slides: [
-//           (<img src={thunder} />),
-//           (<img src={doa} />),
-//           (<img src={kansha} />),
-//         ],
-//         thumbnails: [
-//           (<img src={thunthumb} />),
-//           (<img src={doathumb} />),
-//           (<img src={kanshathumb} />),
-//         ],
-//       }
-//       this.onchange = this.onchange.bind(this);
-//     }
-  
-  
-//     onchange(value) {
-//       this.setState({ value });
-//     }
-  
-//     render() {
-//       return (
-//       <div>
-//         <Carousel
-//           value={this.state.value}
-//           slides={this.state.slides}
-//           onChange={this.onchange}
-//         />
-//         <Dots number={this.state.thumbnails.length} thumbnails={this.state.thumbnails} value={this.state.value} onChange={this.onchange} number={this.state.slides.length} />
-//       </div>
-//       );
-//     }
-//   }
-
-//   export default MyCarousel

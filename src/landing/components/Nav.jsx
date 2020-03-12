@@ -59,8 +59,31 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'space-between',
     },
 
+    middle: {
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
+        display: 'flex',
+        alignItems: 'flex-end'
+    },
+
     tabs: {
-        margin: '0 10px'
+        margin: '0 10px',
+        textDecoration: 'none',
+        color: 'white',
+       
+        
     }
 
     
@@ -80,11 +103,13 @@ export default function Nav() {
                 </Link>
                 Andrew Goenner
             </div>
+            <div className = {classes.middle}>
+                <a href = '#' className = {classes.tabs}>Home</a>
+                <a href = '#skills' className = {classes.tabs}>Class Skills</a>
+                <a href = '#projects' className = {classes.tabs}>Past Adventures</a>
+            </div>
             <div className = {classes.right}>
-                {/* <p className = {classes.tabs}>Back Story</p>
-                <p className = {classes.tabs}>Class Skills</p>
-                <p className = {classes.tabs}>Past Adventures</p>
-                <p className = {classes.tabs}>Contact Me</p> */}
+                
                 <h2 className = {classes.tabs}>Computers & Coders</h2>
             </div>
         </Typography>

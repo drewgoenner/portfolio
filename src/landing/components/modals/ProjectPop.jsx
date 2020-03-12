@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => ({
   button: {
       backgroundColor: 'lightgreen',
       height: '50px',
-      marginLeft: '40%',
+      
       
   },
 
@@ -72,7 +72,7 @@ export function ThunderModal() {
   return (
     <div>
         <button type="button" className = {classes.button} onClick={handleOpen}>
-            ThunderBall Run
+            ThunderBall Description
         </button>
       <Modal
         aria-labelledby="simple-modal-title"
@@ -113,7 +113,7 @@ export function CelebModal() {
     return (
       <div>
           <button type="button" className = {classes.button} onClick={handleOpen}>
-              Celebrity? Dead or Alive
+              Celebrity Description
           </button>
         <Modal
           aria-labelledby="simple-modal-title"
@@ -153,7 +153,7 @@ export function CelebModal() {
     return (
       <div>
           <button type="button" className = {classes.button} onClick={handleOpen}>
-              Kansha Rewards
+              Kansha Description
           </button>
         <Modal
           aria-labelledby="simple-modal-title"

@@ -22,7 +22,8 @@ const useStyles = makeStyles(theme => ({
         [theme.breakpoints.up('lg')]: {
             
         },
-        display: 'flex'
+        display: 'flex',
+        justifyContent: 'center'
     },
 
     about: {
@@ -44,7 +45,8 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         width: '100%',
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        
     },
 
     baseinfo: {
@@ -68,7 +70,7 @@ const useStyles = makeStyles(theme => ({
         },
         width: '50%',
         padding: '5px',
-        margin: '2%',
+        margin: '7% 2% 2% 5%',
         border: '1px solid green'
     },
 
@@ -90,7 +92,7 @@ const useStyles = makeStyles(theme => ({
         },
         display: 'flex',
         margin: '0 2%',
-        width: '80%',
+        width: '100%',
         borderBottom: '1px solid green'
     },
 
@@ -110,7 +112,7 @@ const useStyles = makeStyles(theme => ({
             
         },
         margin: '0 2%',
-        width: '370px',
+        width: '100%',
         borderBottom: '1px solid green'
     },
 
@@ -131,15 +133,28 @@ const useStyles = makeStyles(theme => ({
             
         },
         margin: '0 2%',
-        width: '370px',
+        width: '100%',
         borderBottom: '1px solid green'
     },
 
     profpic: {
-        width: "30%",
+
+        padding: theme.spacing(1),
+        [theme.breakpoints.down('sm')]: {
+            width: '50%',
+            border: 'none'
+            
+        },
+        [theme.breakpoints.up('md')]: {
+            
+        },
+        [theme.breakpoints.up('lg')]: {
+            
+        },
+        width: '20%',
         borderRadius: '50%',
-        margin: '2%',
-        border: '1px solid green'
+        margin: '2% 2% 2% 8%',
+        
     },
 
     git: {
@@ -149,6 +164,10 @@ const useStyles = makeStyles(theme => ({
     linked: {
         width: '40px',
         margin: '3% 0 0 0'
+    },
+
+    email: {
+        color: 'lightblue'
     }
 
 
@@ -163,18 +182,18 @@ export default function About() {
             <div className = {classes.about}>
                 <div className = {classes.baseinfo}>
                 <h1 className = {classes.h1}>Name: Andrew Goenner</h1>
-                <h2 className = {classes.h2}>Race: Tall Hobbit</h2>
+                <h2 className = {classes.h2}>Species: Tall Hobbit</h2>
                 <h3 className = {classes.h3}>Alignment: Lawful Good</h3> 
                 <h3 className = {classes.h3}>Character Class: Full Stack Developer</h3>
                 <h3 className = {classes.h3}>Level: 1</h3>
                 <h3 className = {classes.h3}>Home Territories: <a href='https://github.com/drewgoenner'target = '_blank'><img src = {github} className = {classes.git} /></a>
                 <a href = 'https://www.linkedin.com/in/andrewgoenner' target = '_blank'><img src = {linked} className = {classes.linked} /></a>
                 </h3>
-                <h3 className = {classes.h3}>Send me a missive: <a href= 'mailto:drewgoenner@gmail.com'>via email</a></h3>
+                <h3 className = {classes.h3}>Send me a missive: <a href= 'mailto:drewgoenner@gmail.com' className = {classes.email}>via email</a></h3>
                 
                 </div>
                 <div className = {classes.aboutContent}>
-                    <b>Back Story: </b>I have been interested in the idea of coding and in all things computer related since the 90s.  I have worked in website support for ISPs, SEO for web design companies, but I never had the opportunity to really learn how to code until I attended Lambda School.  Prior to attending Lambda, I was a stay-at-home dad and wrote two novels, self-publishing one of them, as once I latch onto a project, my tenacity is endless.  
+                    <h2>Back Story: </h2><h3>I have been interested in the idea of coding and in all things computer related since the 90s.  I have worked in website support for ISPs, SEO for web design companies, but I never had the opportunity to really learn how to code until I attended Lambda School.  Prior to attending Lambda, I was a stay-at-home dad and wrote two novels, self-publishing one of them, as once I latch onto a project, my tenacity is endless.  </h3>
                 </div>
             </div>
         </Typography>
