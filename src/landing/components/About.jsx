@@ -189,7 +189,7 @@ export default function About() {
                 <h3 className = {classes.h3}>Home Territories: <a href='https://github.com/drewgoenner'target = '_blank'><img src = {github} className = {classes.git} /></a>
                 <a href = 'https://www.linkedin.com/in/andrewgoenner' target = '_blank'><img src = {linked} className = {classes.linked} /></a>
                 </h3>
-                <h3 className = {classes.h3}>Send me a missive: <a href= 'mailto:drewgoenner@gmail.com' className = {classes.email}>via email</a></h3>
+                <h3 className = {classes.h3}>Send me a missive: <a href= 'mailto:drewgoenner@gmail.com' className = {classes.email}>Email Me</a></h3>
                 
                 </div>
                 <div className = {classes.aboutContent}>
